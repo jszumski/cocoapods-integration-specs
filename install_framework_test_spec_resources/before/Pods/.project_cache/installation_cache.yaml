@@ -1,0 +1,59 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  ConsumingPod:
+    BUILD_SETTINGS_CHECKSUM:
+      ConsumingPod:
+        :debug: c2e0e2185fda3a846ff0c69538a1c74b
+        :release: c2e0e2185fda3a846ff0c69538a1c74b
+      ConsumingPod/UnitTests:
+        :debug: fa80abe2b94a8961283215a728c99ec1
+        :release: fa80abe2b94a8961283215a728c99ec1
+    CHECKSUM: 65b97cce049cc2bd93d8c1525a233027644f254b
+    FILES:
+      - "../ConsumingPod/LICENSE"
+      - "../ConsumingPod/Sources/Foo.m"
+      - "../ConsumingPod/Tests/Test.m"
+    PROJECT_NAME: ConsumingPod
+    SPECS:
+      - ConsumingPod (0.1.0)
+      - ConsumingPod/UnitTests (0.1.0)
+  Pods-SampleApp:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 5d3e0acfac6a27008c23b0b378118796
+      Release: 5d3e0acfac6a27008c23b0b378118796
+    FILES:
+      - "${PODS_CONFIGURATION_BUILD_DIR}/SamplePodWithResources/SamplePodWithResources.bundle"
+  Pods-SampleAppTests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 18c5efc5c36f89b2c7e4ddef12d1213c
+      Release: 18c5efc5c36f89b2c7e4ddef12d1213c
+  SamplePodWithResources:
+    BUILD_SETTINGS_CHECKSUM:
+      SamplePodWithResources:
+        :debug: 14cc471e7f8edba8c6179757ae863fe1
+        :release: 14cc471e7f8edba8c6179757ae863fe1
+    CHECKSUM: b9359019f7cce95f85732761fa5c19aefc38551f
+    FILES:
+      - "../SamplePodWithResources/LICENSE"
+    PROJECT_NAME: SamplePodWithResources
+    SPECS:
+      - SamplePodWithResources (0.1.0)
+INSTALLATION_OPTIONS:
+  clean: true
+  deduplicate_targets: true
+  deterministic_uuids: true
+  disable_input_output_paths: false
+  generate_multiple_pod_projects: true
+  incremental_installation: true
+  integrate_targets: true
+  lock_pod_sources: true
+  preserve_pod_file_structure: false
+  share_schemes_for_development_pods: false
+  skip_pods_project_generation: false
+  warn_for_multiple_pod_sources: true
+  warn_for_unused_master_specs_repo: true
+OBJECT_VERSION: 46
+PLUGINS:
+  {}

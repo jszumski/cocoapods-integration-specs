@@ -1,0 +1,16 @@
+ConsumingPod:
+  LABEL: ConsumingPod
+  PROJECT_PATH: ConsumingPod.xcodeproj
+  UUID: 7BF8DE8674C23B8376648B41AA82D13F
+Pods-SampleApp:
+  LABEL: Pods-SampleApp
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 7EFCCFB3480AA7EDB90F9DDD3E9E1D93
+Pods-SampleAppTests:
+  LABEL: Pods-SampleAppTests
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 96A8DC919B1188F4B4944E916BA36667
+SamplePodWithResources:
+  LABEL: SamplePodWithResources
+  PROJECT_PATH: SamplePodWithResources.xcodeproj
+  UUID: 2A9A7C4F877F291412F5057B6E10C9CF

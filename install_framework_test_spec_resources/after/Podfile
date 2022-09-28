@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'SampleApp' do
+  pod 'ConsumingPod', :path => 'ConsumingPod', testspecs: ['UnitTests']
+  pod 'SamplePodWithResources', :path => 'SamplePodWithResources'
+
+  target 'SampleAppTests' do
+    inherit! :search_paths
+  end
+end
+
+install! 'cocoapods', incremental_installation: true, generate_multiple_pod_projects: true

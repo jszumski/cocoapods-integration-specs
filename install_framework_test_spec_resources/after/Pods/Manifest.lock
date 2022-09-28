@@ -1,0 +1,24 @@
+PODS:
+  - ConsumingPod (0.1.0)
+  - ConsumingPod/UnitTests (0.1.0):
+    - SamplePodWithResources
+  - SamplePodWithResources (0.1.0)
+
+DEPENDENCIES:
+  - ConsumingPod (from `ConsumingPod`)
+  - ConsumingPod/UnitTests (from `ConsumingPod`)
+  - SamplePodWithResources (from `SamplePodWithResources`)
+
+EXTERNAL SOURCES:
+  ConsumingPod:
+    :path: ConsumingPod
+  SamplePodWithResources:
+    :path: SamplePodWithResources
+
+SPEC CHECKSUMS:
+  ConsumingPod: 65b97cce049cc2bd93d8c1525a233027644f254b
+  SamplePodWithResources: be92d8b7189a2421279247150d74c650b4ce79f9
+
+PODFILE CHECKSUM: d5898b286621649796c01e8468293e3c1ac60318
+
+COCOAPODS: 1.11.3

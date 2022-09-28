@@ -1,0 +1,31 @@
+{
+  "name": "ConsumingPod",
+  "version": "0.1.0",
+  "summary": "Internal Sample Pod Consuming a Pod Providing Resources for Integration Specs",
+  "homepage": "https://github.com/CocoaPods/CocoaPods",
+  "license": "MIT",
+  "authors": {
+    "Marius Rackwitz": "git@mariusrackwitz.de"
+  },
+  "source": {
+    "git": "https://github.com/CocoaPods/res.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0",
+    "osx": "10.0"
+  },
+  "source_files": "Sources/*.m",
+  "testspecs": [
+    {
+      "name": "UnitTests",
+      "test_type": "unit",
+      "source_files": "Tests/*.m",
+      "dependencies": {
+        "SamplePodWithResources": [
+
+        ]
+      }
+    }
+  ]
+}
